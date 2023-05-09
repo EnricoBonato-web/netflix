@@ -1,0 +1,45 @@
+@import '../var.scss';
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    width: auto;
+    padding: 0 16px;
+    background: linear-gradient($black,$gray);
+    
+    >*{
+        padding: 8px;
+        margin: auto 8px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        padding: 8px;
+        margin: auto;
+        margin-left: 16px;
+        font-size: small;
+
+        .navigation_item {
+            padding: 8px;
+            list-style: none;
+            margin: auto;
+            a {
+                text-decoration: none;
+                color: $white
+            
+            }
+        }
+    }   
+    .navigation_right {
+        >*{
+            padding: 8px;
+        }
+    }
+}
