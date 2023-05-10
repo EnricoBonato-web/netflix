@@ -1,0 +1,11 @@
+@import '../../var.scss';
+
+.navigation_item {
+    padding: 8px;
+    list-style: none;
+    margin: auto;
+    a {
+        text-decoration: none;
+        color: $white
+    }
+}

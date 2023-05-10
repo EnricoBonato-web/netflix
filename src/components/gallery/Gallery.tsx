@@ -1,11 +1,9 @@
 import classes from "./Gallery.module.scss";
-
+import HomeVideo from "./Video/HomeVideo";
 const Gallery = () => {
   return (
     <div className={classes.gallery}>
-      <div className={classes.video}>
-
-      </div>
+      <HomeVideo/>
     </div>
   );
 };
